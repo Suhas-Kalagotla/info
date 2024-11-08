@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = 5000;
 const cors = require("cors");
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://info.suhaskalagotla.in" }));
 
 app.use(express.json());
 
